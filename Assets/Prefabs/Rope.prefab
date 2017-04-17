@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000014070472080}
+  m_IsPrefabParent: 1
+--- !u!1 &1000014070472080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000014094888534}
+  - 114: {fileID: 114000014183937854}
+  - 120: {fileID: 120000012394866116}
+  m_Layer: 0
+  m_Name: Rope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000014094888534
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014070472080}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000014183937854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014070472080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36aa8477b6a8ac44184ac8fa48e9bb79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_collisionFlags: 0
+  m_groupsIBelongTo: 1
+  m_collisionMask: -1
+  _softBodySettings:
+    totalMass: 10
+    scale: {x: 1, y: 1, z: 1}
+    fromFaces: 0
+    bframe: 0
+    bvolume: 0
+    generateClusters: 0
+    bendingConstraintDistance: 0
+    allNodeBendingConstraints: 1
+    randomizeConstraints: 0
+    config:
+      DynamicFriction: 0.2
+      Damping: 0
+      VolumeConversation: 0
+      Pressure: 0
+      AnchorHardness: 0.7
+      Collisions: 1
+      MaxVolume: 1
+      PoseMatching: 0
+      VelocityCorrectionFactor: 1
+      Timescale: 1
+      RigidContactHardness: 1
+      KineticContactHardness: 0.1
+      Shr: 1
+      PositionIterations: 20
+      DriftIterations: 0
+      VelocityIterations: 0
+      ClusterIterations: 0
+      aeroModel: 0
+      Drag: 0
+      Lift: 0
+      SoftRigidHardness: 0.1
+      SoftKineticHardness: 1
+      SoftSoftHardness: 0.5
+      SoftRigidImpulseSplit: 0.5
+      SoftKineticImpulseSplit: 0.5
+      SoftSoftImpulseSplit: 0.5
+    sBMaterial:
+      LinearStiffness: 0.5
+      AngularStiffness: 1
+      VolumeStiffness: 1
+      Flags: 1
+    sBpresetSelect: 2
+  meshSettings:
+    numPointsInRope: 31
+    startPoint: {x: -3.72, y: 0, z: -1}
+    endPoint: {x: -4, y: 5, z: -1}
+    width: 0.25
+    startColor: {r: 0.5647059, g: 0.6666667, b: 0.6901961, a: 1}
+    endColor: {r: 0, g: 0, b: 1, a: 1}
+  ropeAnchors:
+  - body: {fileID: 0}
+    anchorNodePoint: 0
+  - body: {fileID: 0}
+    anchorNodePoint: 1
+--- !u!120 &120000012394866116
+LineRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014070472080}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2899c565b0bb078439c992e19fbfb545, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 39.81906, y: 10.550013, z: 4.0535808}
+  - {x: 39.693604, y: 11.298728, z: 3.8333848}
+  - {x: 39.57447, y: 12.054599, z: 3.651156}
+  - {x: 39.45459, y: 12.81025, z: 3.4648445}
+  - {x: 39.33666, y: 13.569765, z: 3.3007073}
+  - {x: 39.23726, y: 14.3388405, z: 3.1880536}
+  - {x: 39.12865, y: 15.102555, z: 3.0421956}
+  - {x: 39.021103, y: 15.866111, z: 2.8919005}
+  - {x: 38.913616, y: 16.63128, z: 2.751181}
+  - {x: 38.809063, y: 17.399395, z: 2.6239667}
+  - {x: 38.705296, y: 18.168938, z: 2.509687}
+  - {x: 38.602093, y: 18.938328, z: 2.394459}
+  - {x: 38.497837, y: 19.707222, z: 2.2748363}
+  - {x: 38.396355, y: 20.477125, z: 2.1602511}
+  - {x: 38.290527, y: 21.246866, z: 2.048865}
+  - {x: 38.181595, y: 22.016874, z: 1.9430987}
+  - {x: 38.071056, y: 22.787554, z: 1.844695}
+  - {x: 37.959747, y: 23.55876, z: 1.751386}
+  - {x: 37.853672, y: 24.330912, z: 1.659557}
+  - {x: 37.758316, y: 25.10705, z: 1.6006947}
+  - {x: 37.649727, y: 25.879671, z: 1.5170488}
+  - {x: 37.543644, y: 26.653484, z: 1.441276}
+  - {x: 37.439148, y: 27.427507, z: 1.3659996}
+  - {x: 37.33114, y: 28.201096, z: 1.2924936}
+  - {x: 37.228207, y: 28.975676, z: 1.2226149}
+  - {x: 37.128487, y: 29.751066, z: 1.1579597}
+  - {x: 37.025913, y: 30.526407, z: 1.0975088}
+  - {x: 36.94116, y: 31.304712, z: 1.0358409}
+  - {x: 36.845, y: 32.08098, z: 0.97408766}
+  - {x: 36.74682, y: 32.85746, z: 0.91919607}
+  - {x: 36.64733, y: 33.63412, z: 0.86933947}
+  - {x: 36.542137, y: 34.410908, z: 0.83115137}
+  - {x: 36.446293, y: 35.188065, z: 0.7840621}
+  - {x: 36.317772, y: 35.952312, z: 0.6579174}
+  - {x: 36.235683, y: 36.730453, z: 0.600573}
+  - {x: 36.144283, y: 37.509346, z: 0.56624335}
+  - {x: 36.061085, y: 38.288666, z: 0.5262624}
+  - {x: 35.976715, y: 39.067993, z: 0.4894074}
+  - {x: 35.89796, y: 39.847813, z: 0.4498333}
+  - {x: 35.82151, y: 40.627766, z: 0.40998772}
+  - {x: 35.745483, y: 41.40775, z: 0.36968777}
+  - {x: 35.665627, y: 42.187065, z: 0.3275305}
+  - {x: 35.591206, y: 42.9673, z: 0.29022473}
+  - {x: 35.523834, y: 43.74883, z: 0.26053262}
+  - {x: 35.456627, y: 44.53006, z: 0.22831069}
+  - {x: 35.401577, y: 45.313187, z: 0.20368616}
+  - {x: 35.331005, y: 46.09355, z: 0.16571659}
+  - {x: 35.22441, y: 46.867603, z: 0.09275072}
+  - {x: 35.167034, y: 47.650337, z: 0.07151171}
+  - {x: 35.115536, y: 48.43383, z: 0.054188956}
+  - {x: 35.054897, y: 49.215614, z: 0.026135184}
+  - {x: 35, y: 50, z: 0}
+  m_Parameters:
+    startWidth: 0.25
+    endWidth: 0.25
+    m_StartColor:
+      serializedVersion: 2
+      rgba: 4278190335
+    m_EndColor:
+      serializedVersion: 2
+      rgba: 4294901760
+  m_UseWorldSpace: 0

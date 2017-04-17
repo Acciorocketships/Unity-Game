@@ -45,6 +45,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Packs\BulletUnity\Examples\SceneMenu\Editor\UpdateScenesListMenu.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Constraints\Editor\B6DOFConstraintEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Constraints\Editor\BBallSocketConstraintEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Constraints\Editor\BConeTwistConstraintEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Constraints\Editor\BFixedConstraintEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Constraints\Editor\BHingedConstraintEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Constraints\Editor\BSliderConstraintEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Constraints\Editor\BTypedConstraintEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BBoxShapeEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BBvhTriangleMeshShapeEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BCapsuleShapeEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BCollisionObjectEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BCompoundShapeEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BConeShapeEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BConvexHullShapeEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BConvexTriangleMeshShapeEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BCylinderShapeEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BGhostObjectEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BMultiSphereShapeEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BPairCachingGhostObjectEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BPhysicsWorldEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BPrimitiveComponentOrderSorter.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BRigidBodyEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BSoftBodyComponentOrderSorter.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BSoftBodyEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\BSphereShapeEditor.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\EditorHelpers.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\EditorInterface.cs" />
+     <Compile Include="Assets\Packs\BulletUnity\Scripts\Editor\PrimitiveEditor.cs" />
      <Compile Include="Assets\Packs\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <Compile Include="Assets\Packs\Editor\ImageEffects\AntialiasingEditor.cs" />
      <Compile Include="Assets\Packs\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
@@ -65,51 +94,29 @@
      <Compile Include="Assets\Packs\Editor\Water\Water4\SpecularLightingEditor.cs" />
      <Compile Include="Assets\Packs\Editor\Water\Water4\WaterBaseEditor.cs" />
      <Compile Include="Assets\Packs\Editor\Water\Water4\WaterEditorUtility.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiAerodynamicConstraintsEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiBendingConstraintsEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiBezierCurveEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiCatmullRomCurveEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiChainConstraintsEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiClothParticleHandles.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiDistanceConstraintsEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiDraggableIcon.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiEditorUtils.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiParticleActorEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiParticleBakerEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiParticleCacheEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiParticleHandleEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiParticleRendererEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiPinConstraintsEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiRopeEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiRopeSectionEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiSolverEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiSplineHandles.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\ObiTetherConstraintsEditor.cs" />
-     <Compile Include="Assets\Packs\Obi\Editor\PreviewHelpers.cs" />
-     <Compile Include="Assets\Packs\RopePhysics\Editor\PointMassEditor.cs" />
      <None Include="Assets\Packs\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Packs\BulletUnity\Documentation\README-UniversalWindowsPlatform.txt" />
      <None Include="Assets\Packs\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
-     <None Include="Assets\Packs\Obi\Editor Default Resources\EditorParticle.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Packs\BulletUnity\Documentation\README-REALY-README.txt" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Packs\BulletUnity\InternalResources\LineRenderFix.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\Projectors\Guidelines.txt" />
-     <None Include="Assets\Packs\Obi\Plugins\libOni.bundle\Contents\Resources\CMakeLists.txt" />
-     <None Include="Assets\Packs\Obi\Editor Default Resources\FlatSurfaceShader.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
-     <None Include="Assets\Packs\Obi\Resources\ObiMaterials\ParticleShader.shader" />
+     <None Include="Assets\Plugins\BulletUnity\Native\OSX\libbulletc.bundle\Contents\Resources\CMakeLists.txt" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
@@ -119,13 +126,12 @@
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
      <None Include="Assets\Packs\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
-     <None Include="Assets\Packs\Obi\Resources\ObiMaterials\StandardBackfaces.shader" />
      <None Include="Assets\Packs\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
-     <None Include="Assets\Packs\Obi\Resources\ObiMaterials\ObiParticles.cginc" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\Packs\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
      <None Include="Assets\Packs\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Packs\BulletUnity\license.txt" />
      <None Include="Assets\Packs\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\Packs\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
@@ -143,7 +149,6 @@
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\Packs\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
-     <None Include="Assets\Packs\Obi\Editor Default Resources\TopologyBorders.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
@@ -152,12 +157,10 @@
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
-     <None Include="Assets\Packs\Obi\Resources\ObiMaterials\LitParticles.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
      <None Include="Assets\Packs\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
-     <None Include="Assets\Packs\RopePhysics\Examples\Example01\Materials\Line.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
@@ -186,7 +189,6 @@
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
      <None Include="Assets\Packs\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Packs\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
-     <None Include="Assets\Packs\Obi\Resources\ObiMaterials\UnityStandardCoreBackfaces.cginc" />
      <None Include="Assets\Packs\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Packs\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\Packs\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
@@ -237,6 +239,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B827271D-9236-E064-409D-BD3566F81743}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{6287BEF0-7CF4-BF9F-814C-A803E2206BB8}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
