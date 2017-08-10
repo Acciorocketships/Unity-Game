@@ -1,0 +1,225 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_4_0
+-define:UNITY_5_4
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EDITOR_RETINA
+-define:ENABLE_RETINA_GUISTYLES
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_WEBGL
+-define:UNITY_WEBGL_API
+-define:UNITY_DISABLE_WEB_VERIFICATION
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_IL2CPP
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:UNITY_TEAM_LICENSE
+'Assets/Packs/SampleScenes/Menu/Scripts/ExtensionMethods.cs'
+'Assets/Packs/SampleScenes/Menu/Scripts/MenuSceneLoader.cs'
+'Assets/Packs/SampleScenes/Menu/Scripts/PauseMenu.cs'
+'Assets/Packs/SampleScenes/Menu/Scripts/ReturnToMainMenu.cs'
+'Assets/Packs/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs'
+'Assets/Packs/SampleScenes/Scripts/CameraSwitch.cs'
+'Assets/Packs/SampleScenes/Scripts/LevelReset.cs'
+'Assets/Packs/SampleScenes/Scripts/ParticleSceneControls.cs'
+'Assets/Packs/SampleScenes/Scripts/PlaceTargetWithMouse.cs'
+'Assets/Packs/SampleScenes/Scripts/SlowMoButton.cs'
+'Assets/Packs/Standard Assets/2D/Scripts/Camera2DFollow.cs'
+'Assets/Packs/Standard Assets/2D/Scripts/CameraFollow.cs'
+'Assets/Packs/Standard Assets/2D/Scripts/Platformer2DUserControl.cs'
+'Assets/Packs/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs'
+'Assets/Packs/Standard Assets/2D/Scripts/Restarter.cs'
+'Assets/Packs/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs'
+'Assets/Packs/Standard Assets/Cameras/Scripts/AutoCam.cs'
+'Assets/Packs/Standard Assets/Cameras/Scripts/FreeLookCam.cs'
+'Assets/Packs/Standard Assets/Cameras/Scripts/HandHeldCam.cs'
+'Assets/Packs/Standard Assets/Cameras/Scripts/LookatTarget.cs'
+'Assets/Packs/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs'
+'Assets/Packs/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs'
+'Assets/Packs/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs'
+'Assets/Packs/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs'
+'Assets/Packs/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs'
+'Assets/Packs/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs'
+'Assets/Packs/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs'
+'Assets/Packs/Standard Assets/Characters/RollerBall/Scripts/Ball.cs'
+'Assets/Packs/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs'
+'Assets/Packs/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs'
+'Assets/Packs/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs'
+'Assets/Packs/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs'
+'Assets/Packs/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs'
+'Assets/Packs/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs'
+'Assets/Packs/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs'
+'Assets/Packs/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs'
+'Assets/Packs/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs'
+'Assets/Packs/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs'
+'Assets/Packs/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs'
+'Assets/Packs/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs'
+'Assets/Packs/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs'
+'Assets/Packs/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs'
+'Assets/Packs/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs'
+'Assets/Packs/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs'
+'Assets/Packs/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs'
+'Assets/Packs/Standard Assets/Environment/Water/Water/Scripts/Displace.cs'
+'Assets/Packs/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs'
+'Assets/Packs/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs'
+'Assets/Packs/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs'
+'Assets/Packs/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs'
+'Assets/Packs/Standard Assets/Environment/Water/Water/Scripts/Water.cs'
+'Assets/Packs/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs'
+'Assets/Packs/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs'
+'Assets/Packs/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs'
+'Assets/Packs/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs'
+'Assets/Packs/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs'
+'Assets/Packs/Standard Assets/ParticleSystems/Scripts/Explosive.cs'
+'Assets/Packs/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs'
+'Assets/Packs/Standard Assets/ParticleSystems/Scripts/FireLight.cs'
+'Assets/Packs/Standard Assets/ParticleSystems/Scripts/Hose.cs'
+'Assets/Packs/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs'
+'Assets/Packs/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs'
+'Assets/Packs/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs'
+'Assets/Packs/Standard Assets/Utility/ActivateTrigger.cs'
+'Assets/Packs/Standard Assets/Utility/AutoMobileShaderSwitch.cs'
+'Assets/Packs/Standard Assets/Utility/AutoMoveAndRotate.cs'
+'Assets/Packs/Standard Assets/Utility/CameraRefocus.cs'
+'Assets/Packs/Standard Assets/Utility/CurveControlledBob.cs'
+'Assets/Packs/Standard Assets/Utility/DragRigidbody.cs'
+'Assets/Packs/Standard Assets/Utility/DynamicShadowSettings.cs'
+'Assets/Packs/Standard Assets/Utility/EventSystemChecker.cs'
+'Assets/Packs/Standard Assets/Utility/FOVKick.cs'
+'Assets/Packs/Standard Assets/Utility/FPSCounter.cs'
+'Assets/Packs/Standard Assets/Utility/FollowTarget.cs'
+'Assets/Packs/Standard Assets/Utility/ForcedReset.cs'
+'Assets/Packs/Standard Assets/Utility/LerpControlledBob.cs'
+'Assets/Packs/Standard Assets/Utility/ObjectResetter.cs'
+'Assets/Packs/Standard Assets/Utility/ParticleSystemDestroyer.cs'
+'Assets/Packs/Standard Assets/Utility/PlatformSpecificContent.cs'
+'Assets/Packs/Standard Assets/Utility/SimpleActivatorMenu.cs'
+'Assets/Packs/Standard Assets/Utility/SimpleMouseRotator.cs'
+'Assets/Packs/Standard Assets/Utility/SmoothFollow.cs'
+'Assets/Packs/Standard Assets/Utility/TimedObjectActivator.cs'
+'Assets/Packs/Standard Assets/Utility/TimedObjectDestructor.cs'
+'Assets/Packs/Standard Assets/Utility/WaypointCircuit.cs'
+'Assets/Packs/Standard Assets/Utility/WaypointProgressTracker.cs'
+'Assets/Packs/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs'
+'Assets/Packs/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs'
+'Assets/Packs/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs'
+'Assets/Packs/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs'
+'Assets/Packs/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs'
+'Assets/Packs/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs'
+'Assets/Packs/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs'
+'Assets/Packs/Standard Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs'
+'Assets/Packs/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs'
+'Assets/Packs/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs'
+'Assets/Packs/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs'
+'Assets/Packs/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs'
+'Assets/Packs/Standard Assets/Vehicles/Car/Scripts/CarController.cs'
+'Assets/Packs/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs'
+'Assets/Packs/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs'
+'Assets/Packs/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs'
+'Assets/Packs/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs'
+'Assets/Packs/Standard Assets/Vehicles/Car/Scripts/Suspension.cs'
+'Assets/Packs/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs'
+'Assets/Scripts/CameraController.cs'
+'Assets/Scripts/PlayerController.cs'
+'Assets/Scripts/Rope.cs'
+'Assets/Scripts/RopeController.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
+@Assets/smcs.rsp

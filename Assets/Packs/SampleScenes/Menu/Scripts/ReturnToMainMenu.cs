@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class ReturnToMainMenu : MonoBehaviour
 {
-    private bool m_Levelloaded;
+    private bool m_Levelloaded = true;
 
 
     public void Start()
@@ -13,10 +13,10 @@ public class ReturnToMainMenu : MonoBehaviour
     }
 
 
-    private void OnLevelWasLoaded(int level)
-    {
-        m_Levelloaded = true;
-    }
+    //private void OnLevelWasLoaded(int level)
+    //{
+    //    m_Levelloaded = true;
+    //}
 
 
     private void Update()
